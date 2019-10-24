@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Auto-encoder</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="dist/bundle.js" type="module"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div id="container"></div>
+        <div id="resultGrid"></div>
+
+        <div class="example-change">
+           <i class="fa fa-2x fa-arrow-left" id="previousExample" aria-hidden="true" style="cursor: pointer;"></i>
+           <div id="currentExampleNumber" style="text-align: center;"></div>
+           <i class="fa fa-2x fa-arrow-right" id="nextExample" aria-hidden="true" style="text-align: right; cursor: pointer;"></i>
+        </div>
+        <div class="action-buttons">
+          <button type="button" id="button-learn">Start learning</button>
+          <button type="button" id="button-check">Encode</button>
+          <button type="button" id="button-recursion">Recursion</button>
+        </div>
+    </div>
+  
+</body>
+</html>
