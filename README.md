@@ -4,6 +4,4 @@ There are some examples of pictures which you can use to feed altorithm, but you
 
 Posibilities to improve performance is to get all grid elements to map and which allow to take them form DOM only once. It should improve time of checking results.
 
-<div align="center">
-    <img src="./assets/example.png" width="400px"</img> 
-</div>
+![Alt text](./assets/example.png?raw=true "screen")
