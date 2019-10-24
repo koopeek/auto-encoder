@@ -4,4 +4,6 @@ There are some examples of pictures which you can use to feed altorithm, but you
 
 Posibilities to improve performance is to get all grid elements to map and which allow to take them form DOM only once. It should improve time of checking results.
 
+In the picture below you can see how picture of tree with noises encoded.
+
 ![Alt text](./assets/example.png?raw=true "screen")
